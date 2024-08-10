@@ -1,0 +1,23 @@
+{
+    "name": "sagar",
+    "location": "france",
+    "phone": "879879",
+    "courses": [
+        "c",
+        "c++"
+    ],
+   
+    "createdAt": "2024-06-21T17:34:38.155Z"
+}
+
+<Pet>
+  <id>9223372036854659107</id>
+  <name>doggie</name>
+  <photoUrls>
+    <photoUrl>string</photoUrl>
+    <photoUrl>string1</photoUrl>
+    <photoUrl>string2</photoUrl>
+  </photoUrls>
+  <status>available</status>
+  <tags/>
+</Pet>
