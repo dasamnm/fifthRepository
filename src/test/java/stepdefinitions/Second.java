@@ -1,23 +1,16 @@
 package stepdefinitions;
 
-import di.ContextClass;
-import io.cucumber.java.en.Then;
+import io.cucumber.java.en.Given;
 
 public class Second {
-	private ContextClass context;
-
-	public Second(ContextClass context) {
-		this.context = context;
-	}
-	
-
-	@Then("display username")
-	public void display_username() {
-		System.out.println(context.getName());
+	@Given("user is on login page")
+	public void user_is_on_login_page() {
+	    System.out.println("user is on login page");
 	}
 
-	@Then("user age")
-	public void user_age() {
-		System.out.println(context.getAge());
+	@Given("user is on login web page")
+	public void user_is_on_login_web_page() {
+		System.out.println("user is on login web page");
 	}
+
 }
